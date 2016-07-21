@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "myINRHelper-executor",
+    "name": "myINRHelper",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "sboiewsa81",
+    "module": "bot"
+  }
+}
