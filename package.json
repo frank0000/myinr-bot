@@ -5,7 +5,8 @@
   "license": "UNLICENSED",
   "description": "myINR Helper chat bot",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "jshint .",
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,7 @@
     "claudia-bot-builder": "^1.0.0"
   },
   "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^10.0.0"
   }
 }
